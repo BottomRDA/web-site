@@ -1,0 +1,305 @@
+@media screen and (max-width: 1130px) {
+    .container{
+        max-width: 760px;
+    }
+    .navigation{
+        width: 760px;
+        padding: 10px 0;
+    }
+    .navigation__menu{
+        flex-direction: column;
+    }
+
+    .navigation__item:not(:first-child){
+        margin: 0 0 10px 0;    
+    }
+
+    .navigation__item{
+        margin-bottom: 10px;
+    }
+    
+
+    .quote-card{
+        max-width: 450px;
+        margin-top: 80px;
+        margin: 80px auto 0 auto;
+    }
+
+    .quote{
+        padding: 30px 50px;
+    }
+
+    .hisory__content{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .history__item:nth-child(1){
+        margin-bottom: 10px;
+        max-width: 760px;
+    }
+
+    .kind__image{
+        width: 100%;
+        border-radius: 50px;
+    }
+
+    .kind__content-card{
+        top: 30%;
+    }
+
+    .difference__content{
+        flex-direction: column;
+        align-items: center;
+        max-width: 760px;   
+    }
+
+    .difference__item{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .ceremony__image{
+        border-radius: 50px;
+    }
+
+    .ceremony__form{
+        border-radius: 50px;
+    }
+
+    .title-form{
+        margin-bottom: 40px;
+    }
+
+    .response__item{
+        margin-bottom: 10px;
+        width: 60%;
+    }
+
+    .item--email{
+        margin-bottom: 20px;
+    }
+
+    .response__button{
+        width: 60%;
+    }
+
+    .footer__menu{
+        flex-direction: column;
+    }
+}
+/*второй фрагмент*/
+@media screen and (max-width: 780px){
+
+    .container{
+        max-width: 580px;
+    }
+    .navigation{
+        width: 580px;
+        padding: 10px 0;
+    }
+
+    .navigation__link{
+        font-size: 16px;
+    }
+
+    .kind__image{
+        width: 100%;
+        border-radius: 20px;
+    }
+
+    .kind__content-card{
+        top: 17%;
+    }
+
+    .ceremony__image{
+        border-radius: 20px;
+    }
+
+    .ceremony__form{
+        border-radius: 20px;
+    }
+
+    .title-form{
+        margin-bottom: 20px;
+        font-size: 24px;
+    }
+
+    .response__item{
+        margin-bottom: 10px;
+        width: 80%;
+    }
+
+    .item--email{
+        margin-bottom: 20px;
+    }
+
+    .response__button{
+        width: 80%;
+    }
+
+    .response__item label{
+        
+        font-size: 16px;
+    }
+
+    .response__item input{
+        padding: 5px;
+        height: 30px;
+        border-radius: 5px;
+        font-size: 16px;
+    }
+
+    .footer__nav{
+        display: flex;
+        flex-direction: column;
+    }
+    .footer__nav .logo{
+        margin-left: 40px;
+    }
+
+    .footer__contacts p{
+        text-align: center;
+    }
+
+    .images{
+        justify-content: center;
+    }
+
+    .gallery button{
+        color: #503D26;
+    }
+    
+
+}
+
+@media screen and (max-width: 600px){
+
+    body{
+        font-size: 16px;
+    }
+    
+    h2{
+        font-size: 32px;
+    }
+    
+    h3{
+        font-size: 24px;
+    }
+    
+    h4{
+        font-size: 20px; 
+    }
+
+    .container{
+        width: 100%;
+    }
+
+    .navigation{
+        flex-direction: column;
+    }
+
+    .navigation .logo a img{
+        width: 80%;
+    }
+
+    .logo{
+        margin-left: 30%;
+    }
+
+    .quote-card{
+        margin-top: 150px;
+    }
+    
+    .quote{
+        padding: 20px 40px;
+        font-size: 26px;
+        line-height: 1.2;
+        letter-spacing: 0.25em;
+    }
+
+    .navigation--gradient{
+        position: absolute;
+    }
+
+    .content-card{
+        padding: 20px;
+    }
+
+    .kind__image{
+        width: 100%;
+        border-radius: 20px;
+    }
+    
+    .kind__content-card{
+        padding: 10px 25px;
+        top: 10%;
+        border-radius: 20px;
+    }
+
+    .ceremony__image{
+        border-radius: 0;
+    }
+
+    .ceremony__form{
+        border-radius: 0;
+    }
+
+    .title-form{
+        margin-bottom: 10px;
+        font-size: 14px;
+        font-weight: 500;
+    }
+
+    .item--email{
+        margin-bottom: 10px;
+    }
+
+    .response__items{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 10px 0;
+    }
+
+
+    .response__item label{
+        font-size: 14px;
+    }
+
+    .response__item input{
+        padding: 5px;
+        height: 20px;
+        border-radius: 0;
+        font-size: 14px;
+    }
+
+    .response__button{
+        border-radius: 10px;    
+        padding: 10px;
+        font-size: 16px;
+    }
+
+    .ceremony{
+        margin-bottom: 40px;
+    }
+
+    /*Третий фрагмент для max-width:600px*/
+    .footer__nav{
+        width: 100%;
+    }
+    .footer__nav .logo a img{
+        width: 80%;
+    }
+
+    .footer__contacts p{
+        text-align: center;
+    }
+
+    .footer__nav .logo{
+        margin-left: 30%;
+    }
+
+
+}
